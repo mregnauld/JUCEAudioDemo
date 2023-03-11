@@ -384,7 +384,7 @@
 					$SRCROOT/Runner/Natif/Cpp/Juce,
 					$SRCROOT/../../../../JUCE/modules,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -474,7 +474,7 @@
 					$SRCROOT/Runner/Natif/Cpp/Juce,
 					$SRCROOT/../../../../JUCE/modules,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -527,7 +527,7 @@
 					$SRCROOT/Runner/Natif/Cpp/Juce,
 					$SRCROOT/../../../../JUCE/modules,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
