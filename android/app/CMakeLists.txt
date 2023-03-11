@@ -11,8 +11,11 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Ofast")
 #set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #set(CMAKE_CXX_EXTENSIONS OFF)
 
+# User directory
+set(USER_HOME_DIR $ENV{HOME})
+
 # Oboe
-set(OBOE_DIR "${CMAKE_SOURCE_DIR}/../../../../../JUCE/modules/juce_audio_devices/native/oboe")
+set(OBOE_DIR "${USER_HOME_DIR}/JUCE/modules/juce_audio_devices/native/oboe")
 add_subdirectory(${OBOE_DIR} ./oboe)
 
 # CPU Features
@@ -26,7 +29,7 @@ set_property(TARGET JuceAudio PROPERTY IMPORTED_LOCATION
 set_target_properties(JuceAudio PROPERTIES INTERFACE_INCLUDE_DIRECTORIES
         ${JuceAudio_DIR}/lib/include)
 include_directories(${JuceAudio_DIR}/lib/include)
-include_directories(${CMAKE_SOURCE_DIR}/../../../../../JUCE/modules)
+include_directories(${USER_HOME_DIR}/JUCE/modules)
 
 
 add_library( # Sets the name of the library.
