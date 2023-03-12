@@ -6,11 +6,6 @@ project(JUCEAudioDemo)
 # optimization
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Ofast")
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
-#set(CMAKE_CXX_STANDARD 17)
-#set(CMAKE_CXX_STANDARD_REQUIRED ON)
-#set(CMAKE_CXX_EXTENSIONS OFF)
-
 # User directory
 set(USER_HOME_DIR $ENV{HOME})
 
