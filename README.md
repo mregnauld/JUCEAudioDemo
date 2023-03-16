@@ -13,7 +13,7 @@ If you want to `git clone` that project and test it locally, you'll first need t
 - [download](https://juce.com/get-juce/) and install JUCE
 - For Android:
   - edit the `CMakeLists.txt` file
-  - change the `${USER_HOME_DIR}/JUCE` (x2) by the path where you installed JUCE, if needed
+  - change the value of `JUCE_DIR` to the path where you installed JUCE, if needed
 - For iOS:
   - Go to *Runner (Project) > Build Settings > Search Paths*, then *Header Search Paths*
-  - change the `$SRCROOT/../../../../JUCE/modules` by the path where you installed JUCE, if needed
+  - change the `$HOME/JUCE` path to the path where you installed JUCE, if needed
